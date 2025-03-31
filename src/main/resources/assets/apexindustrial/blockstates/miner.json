@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "apexindustrial:block/miner"
+    },
+    "facing=south": {
+      "model": "apexindustrial:block/miner",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "apexindustrial:block/miner",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "apexindustrial:block/miner",
+      "y": 270
+    }
+  }
+}
