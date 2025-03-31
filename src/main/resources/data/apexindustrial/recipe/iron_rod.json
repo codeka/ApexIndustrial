@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  X",
+    " X ",
+    "X  "
+  ],
+  "key": {
+    "X": "minecraft:iron_ingot"
+  },
+  "result": {
+    "count": 2,
+    "id": "apexindustrial:iron_rod"
+  }
+}

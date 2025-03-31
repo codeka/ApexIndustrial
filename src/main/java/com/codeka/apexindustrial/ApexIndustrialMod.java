@@ -1,5 +1,6 @@
 package com.codeka.apexindustrial;
 
+import com.codeka.apexindustrial.item.ModItems;
 import com.codeka.apexindustrial.miners.MinerBlocks;
 import com.codeka.apexindustrial.miners.MinerItems;
 import com.codeka.apexindustrial.miners.block.MinerBlock;
@@ -46,6 +47,7 @@ public class ApexIndustrialMod {
         modEventBus.addListener(this::commonSetup);
         NeoForge.EVENT_BUS.register(this);
 
+        ModItems.register(modEventBus);
         MinerItems.register(modEventBus);
         MinerBlocks.register(modEventBus);
 
@@ -59,7 +61,8 @@ public class ApexIndustrialMod {
 
     private void addCreative(BuildCreativeModeTabContentsEvent event)  {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(MinerItems.TEST_ITEM);
+            event.accept(ModItems.IRON_PLATE);
+            event.accept(ModItems.IRON_ROD);
         }
 
         if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {

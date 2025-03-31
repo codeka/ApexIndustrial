@@ -1,4 +1,4 @@
 package com.codeka.apexindustrial.item;
 
-public class CreaiveModeTabs {
+public class CreativeModeTabs {
 }

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "apexindustrial:item/test_item"
+    "model": "apexindustrial:item/iron_rod"
   }
 }
