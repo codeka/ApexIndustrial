@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PRP",
+    "R R",
+    "PRP"
+  ],
+  "key": {
+    "R": "apexindustrial:iron_rod",
+    "P": "apexindustrial:iron_plate"
+  },
+  "result": {
+    "count": 1,
+    "id": "apexindustrial:iron_frame"
+  }
+}

@@ -12,6 +12,18 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(ApexIndustrialMod.MODID);
 
+    public static final DeferredItem<Item> IRON_FRAME = ITEMS.register(
+            "iron_frame",
+            () -> new Item(
+                    new Item.Properties()
+                            .useItemDescriptionPrefix()
+                            .setId(
+                                    ResourceKey.create(
+                                            Registries.ITEM,
+                                            ResourceLocation.fromNamespaceAndPath(
+                                                    ApexIndustrialMod.MODID,
+                                                    "iron_frame")))));
+
     public static final DeferredItem<Item> IRON_PLATE = ITEMS.register(
             "iron_plate",
             () -> new Item(

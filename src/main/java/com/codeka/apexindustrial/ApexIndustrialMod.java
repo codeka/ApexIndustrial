@@ -61,6 +61,7 @@ public class ApexIndustrialMod {
 
     private void addCreative(BuildCreativeModeTabContentsEvent event)  {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.IRON_FRAME);
             event.accept(ModItems.IRON_PLATE);
             event.accept(ModItems.IRON_ROD);
         }
